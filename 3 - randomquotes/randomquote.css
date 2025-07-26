@@ -1,0 +1,52 @@
+html {
+  font-size: 10px;
+  background: url('marvel.jpg') bottom center;
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 75px;
+    background-color: rgb(0, 0, 0);
+    min-width:650px;
+    text-shadow: 100 100 100;
+    padding: 10px 10px;
+
+}
+body{
+    text-align: center;
+    background-color: white;
+    font-size: 28px;
+    color: black;
+    height: 400px;
+  overflow-y: auto;  
+  min-width: 650px;
+
+}
+#button{
+    padding: 10px 10px;
+    
+    width: 200px;
+    height: 40px;
+  font-size: 18px;          /* text size */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;       /* text color */
+  background-color: #007BFF; /* background color */
+  border: none;            /* remove default border */
+  border-radius: 8px;      /* rounded corners */
+  padding: 10px;           /* inner spacing */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* add shadow */
+  cursor: pointer;         /* cursor changes on hover */
+  transition: background-color 0.3s, transform 0.2s;
+}
+#button:hover {
+  background-color: #0056b3; /* darker on hover */
+  transform: scale(1.05);    /* slightly enlarge on hover */
+}
